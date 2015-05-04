@@ -1,4 +1,10 @@
 source "https://rubygems.org"
 
-# Specify your gem"s dependencies in shortify.gemspec
+group :development, :test do
+  gem "rspec", "~> 3.2"
+  gem "rubocop", "~> 0.30"
+  gem "vcr", "~> 2.9"
+  gem "webmock", "~> 1.21"
+end
+
 gemspec

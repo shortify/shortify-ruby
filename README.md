@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/shortify/shortify-ruby.svg?branch=master)](https://travis-ci.org/shortify/shortify-ruby)
 
-A ruby library for working with Shortify
+A ruby client library for working with Shortify
 
 ## Installation
 

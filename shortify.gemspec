@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["pseudomuto"]
   spec.email         = ["david.muto@gmail.com"]
 
-  spec.summary       = "A ruby library for working with Shortify"
-  spec.description   = "A ruby library for working with Shortify"
+  spec.summary       = "A ruby client library for working with Shortify"
+  spec.description   = "A ruby client library for working with Shortify"
   spec.homepage      = "https://github.com/shortify/shortify-ruby"
   spec.license       = "MIT"
 
@@ -18,13 +18,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-
-  spec.add_development_dependency "bundler", "~> 1.9"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency "rubocop", "~> 0.30"
-  spec.add_development_dependency "vcr", "~> 2.9"
-  spec.add_development_dependency "webmock", "~> 1.21"
 
   spec.add_dependency "httparty"
 end
